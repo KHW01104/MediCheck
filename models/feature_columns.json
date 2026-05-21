@@ -1,0 +1,29 @@
+{
+  "numeric_features": [
+    "age",
+    "bmi",
+    "medication_count",
+    "encounter_count",
+    "condition_count"
+  ],
+  "binary_features": [
+    "gender_encoded",
+    "has_diabetes",
+    "has_hypertension",
+    "has_obesity",
+    "abnormal_bmi_flag"
+  ],
+  "feature_columns": [
+    "age",
+    "bmi",
+    "medication_count",
+    "encounter_count",
+    "condition_count",
+    "gender_encoded",
+    "has_diabetes",
+    "has_hypertension",
+    "has_obesity",
+    "abnormal_bmi_flag"
+  ],
+  "target_column": "target_cvd"
+}
