@@ -1,0 +1,66 @@
+{
+  "project": "MediCheck",
+  "note": "Feature importance is a model explanation aid for a synthetic-data prototype, not a clinical conclusion.",
+  "feature_importance": [
+    {
+      "feature": "medication_count",
+      "label": "Medication count",
+      "importance": 0.557735,
+      "normalized_importance": 0.557735
+    },
+    {
+      "feature": "condition_count",
+      "label": "Condition count",
+      "importance": 0.183082,
+      "normalized_importance": 0.183082
+    },
+    {
+      "feature": "age",
+      "label": "Age",
+      "importance": 0.114106,
+      "normalized_importance": 0.114106
+    },
+    {
+      "feature": "has_hypertension",
+      "label": "Hypertension history",
+      "importance": 0.05421,
+      "normalized_importance": 0.05421
+    },
+    {
+      "feature": "bmi",
+      "label": "BMI",
+      "importance": 0.037779,
+      "normalized_importance": 0.037779
+    },
+    {
+      "feature": "encounter_count",
+      "label": "Encounter count",
+      "importance": 0.025641,
+      "normalized_importance": 0.025641
+    },
+    {
+      "feature": "has_diabetes",
+      "label": "Diabetes history",
+      "importance": 0.013297,
+      "normalized_importance": 0.013297
+    },
+    {
+      "feature": "has_obesity",
+      "label": "Obesity history",
+      "importance": 0.010319,
+      "normalized_importance": 0.010319
+    },
+    {
+      "feature": "gender_encoded",
+      "label": "Gender encoded",
+      "importance": 0.003774,
+      "normalized_importance": 0.003774
+    },
+    {
+      "feature": "abnormal_bmi_flag",
+      "label": "Abnormal BMI flag",
+      "importance": 5.7e-05,
+      "normalized_importance": 5.7e-05
+    }
+  ]
+}

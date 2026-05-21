@@ -1,0 +1,118 @@
+{
+  "project": "MediCheck",
+  "generated_at": "2026-05-21T15:21:15.099147+00:00",
+  "data_dir": "data/sample",
+  "feature_path": "data/processed/patient_features.csv",
+  "summary": {
+    "patients": 1000,
+    "conditions": 1743,
+    "medications": 787,
+    "encounters": 2823,
+    "observations": 4052,
+    "feature_rows": 1000
+  },
+  "missingness": [
+    {
+      "feature": "bmi",
+      "missing_count": 5,
+      "missing_rate": 0.005
+    },
+    {
+      "feature": "age",
+      "missing_count": 0,
+      "missing_rate": 0.0
+    },
+    {
+      "feature": "gender_encoded",
+      "missing_count": 0,
+      "missing_rate": 0.0
+    },
+    {
+      "feature": "has_diabetes",
+      "missing_count": 0,
+      "missing_rate": 0.0
+    },
+    {
+      "feature": "has_hypertension",
+      "missing_count": 0,
+      "missing_rate": 0.0
+    },
+    {
+      "feature": "medication_count",
+      "missing_count": 0,
+      "missing_rate": 0.0
+    },
+    {
+      "feature": "encounter_count",
+      "missing_count": 0,
+      "missing_rate": 0.0
+    }
+  ],
+  "outliers": {
+    "age": {
+      "outlier_count": 0,
+      "outlier_rate": 0.0
+    },
+    "bmi": {
+      "outlier_count": 3,
+      "outlier_rate": 0.003
+    },
+    "medication_count": {
+      "outlier_count": 0,
+      "outlier_rate": 0.0
+    },
+    "encounter_count": {
+      "outlier_count": 0,
+      "outlier_rate": 0.0
+    }
+  },
+  "duplicates": {
+    "patient_id": {
+      "duplicate_count": 0,
+      "duplicate_rate": 0.0
+    },
+    "encounters.Id": {
+      "duplicate_count": 5,
+      "duplicate_rate": 0.0018
+    }
+  },
+  "code_coverage": {
+    "conditions": {
+      "rows": 1743,
+      "missing_code_or_description_count": 18,
+      "missing_code_or_description_rate": 0.0103,
+      "coverage_rate": 0.9897
+    },
+    "medications": {
+      "rows": 787,
+      "missing_code_or_description_count": 4,
+      "missing_code_or_description_rate": 0.0051,
+      "coverage_rate": 0.9949
+    }
+  },
+  "temporal_consistency": {
+    "conditions_start_before_birth": {
+      "issue_count": 8,
+      "issue_rate": 0.0046,
+      "rows_checked": 1743
+    },
+    "encounters_start_before_birth": {
+      "issue_count": 0,
+      "issue_rate": 0.0,
+      "rows_checked": 2823
+    }
+  },
+  "quality_score_method": "The quality_score is a MediCheck portfolio heuristic for synthetic-data demos. It is not a clinical data quality standard.",
+  "score": {
+    "quality_score": 99.74,
+    "total_penalty": 0.26,
+    "penalties": {
+      "missingness_penalty": 0.02,
+      "outlier_penalty": 0.01,
+      "duplicate_penalty": 0.02,
+      "code_quality_penalty": 0.15,
+      "temporal_penalty": 0.06
+    },
+    "note": "The quality_score is a MediCheck portfolio heuristic for synthetic-data demos. It is not a clinical data quality standard."
+  }
+}
