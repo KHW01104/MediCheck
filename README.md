@@ -235,7 +235,7 @@ target_cvd
 
 ## Research Portfolio Positioning
 
-MediCheck는 다음 역량을 보여주기 위한 2~3주 범위의 미니 프로젝트입니다.
+MediCheck는 다음 역량을 보여주기 위한 미니 프로젝트입니다.
 
 - 의료데이터사이언스
 - 의료 AI 모델링
@@ -244,10 +244,3 @@ MediCheck는 다음 역량을 보여주기 위한 2~3주 범위의 미니 프로
 - FastAPI 기반 추론 API
 - Streamlit 기반 디지털헬스 대시보드
 - 향후 의료 LLM/RAG, EHR/CDM, 디지털헬스 플랫폼 확장 가능성
-
-연구실별 요약 문서:
-
-- [docs/project_summary_khu.md](docs/project_summary_khu.md)
-- [docs/project_summary_dac.md](docs/project_summary_dac.md)
-- [docs/project_summary_skku.md](docs/project_summary_skku.md)
-
